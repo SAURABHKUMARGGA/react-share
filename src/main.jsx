@@ -10,7 +10,15 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import './index.css'
+define(['IScroll', 'fullpage'], function(IScroll, fullpage) {
 
+  // Initializing it
+  var fullPageInstance = new fullpage('#myFullpage', {
+      navigation: true,
+      sectionsColor:['blue', 'red', 'purple', 'grey'],
+      scrollOverflow: true
+  });
+});
 const router = new createBrowserRouter([
   {
     path:"/",
