@@ -1,6 +1,8 @@
 // console.log($);
 $(document).ready(function() {
     // console.log($('#fullpage'));
+    
+    window.location.href = "#firstPage";
 	$('#fullpage').fullpage({
         autoScrolling:true,
         // scrollHorizontally: true,
