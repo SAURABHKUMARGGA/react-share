@@ -6,3 +6,11 @@
   padding: 0px;
   box-sizing: border-box;
 }
+.active{
+  background-color: #111827;
+  border-radius: 5px;
+}
+.active>a{
+  color: white !important;
+
+}
